@@ -79,7 +79,7 @@ article table{
     background-color: rgb(248, 238, 250);
     border: 2px solid;
 }
-article table th,tr{
+article table th,td{
     border: 1px solid;
 }
 aside{

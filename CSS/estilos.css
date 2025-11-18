@@ -141,6 +141,8 @@ h1 {
   to { opacity: 1; transform: translateY(0); }
 }
 
+
+
 .modal {
     display: none;
     position: fixed;
@@ -149,6 +151,7 @@ h1 {
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.6);
+    z-index: 9999;
 }
 
 .modal:target {
@@ -162,6 +165,7 @@ h1 {
     padding: 20px;
     width: 350px;
     border-radius: 10px;
+    z-index: 10000;
 }
 
 .cerrar {

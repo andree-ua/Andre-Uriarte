@@ -76,8 +76,11 @@ article ul, ol, dl{
     margin: 18px;
 }
 article table{
-  background-color: rgb(248, 238, 250);
-  border: 1px solid;
+    background-color: rgb(248, 238, 250);
+    border: 2px solid;
+}
+article table th,tr{
+    border: 1px solid;
 }
 aside{
     flex: 1;
@@ -87,12 +90,19 @@ aside{
     box-shadow: 0 2px 5px #022442;
 }
 footer{
+
     text-align: center;
     padding: 15px;
     background-color: #0055a5;
     color: white;
     border-radius: 8px;
     margin-top: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+
 }
 
 

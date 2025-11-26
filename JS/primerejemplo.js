@@ -31,27 +31,34 @@ function a2(){
     alert("Ok, creo que ya estoy entendiendo esto 😎"); 
 }
 function a3(){ 
-    alert("Uy, le piqué y funcionó "); 
+    alert("Uy, le piqué y funcionó"); 
 }
 function a4(){ 
-    alert("Profe, esto está más fácil de lo que pensé "); 
+    alert("Profe, esto está más fácil de lo que pensé"); 
 }
 function a5(){ 
-    alert("Estoy practicando para que me suba la nota "); 
+    alert("Estoy practicando para que me suba la nota"); 
 }
 function a6(){
-    lert("Listo profe, otro botón más pa' la colección "); 
+    lert("Listo profe, otro botón más pa' la colección"); 
 }
 
 function fondo(){
-    document.body.style.background = "lightblue";
+    document.body.style.background='lightblue';
 }
 function textoColor(){
-    document.body.style.color = "blue";
+    document.body.style.color='blue';
 }
 function tamanoImg(){
-    document.getElementById("carita").style.width = "250px";
+    document.getElementById('carita').style.width='250px';
 }
 function bordeImg(){
-    document.getElementById("carita").style.border = "2px solid black";
+    document.getElementById('carita').style.border='2px solid black';
+}
+
+function cambiodeTexto(){
+    document.getElementById('subtitulo').textContent= "Profe, ya cambié este subtítulo :)";
+}
+function cambiodeTexto(){
+    document.getElementById('parrafo').textContent= "Este texto también lo cambié. Estoy practicando JavaScript.";
 }

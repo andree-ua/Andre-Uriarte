@@ -40,7 +40,7 @@ function a5(){
     alert("Estoy practicando para que me suba la nota"); 
 }
 function a6(){
-    lert("Listo profe, otro botón más pa' la colección"); 
+    alert("Listo profe, otro botón más pa' la colección"); 
 }
 
 function fondo(){

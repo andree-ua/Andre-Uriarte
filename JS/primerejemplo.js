@@ -42,11 +42,12 @@ function a5(){
 function a6(){
     lert("Listo profe, otro botón más pa' la colección "); 
 }
+
 function fondo(){
     document.body.style.background = "lightblue";
 }
 function textoColor(){
-    document.body.style.color = "red";
+    document.body.style.color = "blue";
 }
 function tamanoImg(){
     document.getElementById("carita").style.width = "250px";

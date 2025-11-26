@@ -10,7 +10,6 @@ function feliz(){
 }
 function cambiarColor(){
     document.getElementById('menu').style.color='#eed33aff';
-
 }
 function cambiarLogo(){
     document.getElementById('logo').src='images/logo2.jpg';
@@ -23,4 +22,14 @@ function cambiodeTexto(){
 }
 function fondoAside(){
     document.getElementById('aside').style.background='#f584f5ff';
+}
+function modoOscuro(){
+    document.body.style.background = '#1a1a1a';
+    document.body.style.color = 'white';
+}
+function ponerBorde(){
+    document.getElementById('carita').style.border = '5px solid #000';
+}
+function moverImagen(){
+    document.getElementById('carita').style.marginLeft = '150px';
 }

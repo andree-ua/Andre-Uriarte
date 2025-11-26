@@ -44,7 +44,7 @@ function a6(){
 }
 
 function fondo(){
-    document.body.style.background='lightblue';
+    document.body.style.background='(olive';
 }
 function textoColor(){
     document.body.style.color='blue';
@@ -57,8 +57,8 @@ function bordeImg(){
 }
 
 function cambiodeTexto(){
-    document.getElementById('subtitulo').textContent= "Profe, ya cambié este subtítulo :)";
+    document.getElementById('Subtitulo').textContent="Profe, ya cambié este subtítulo :)";
 }
 function cambiodeTexto(){
-    document.getElementById('parrafo').textContent= "Este texto también lo cambié. Estoy practicando JavaScript.";
+    document.getElementById('Subtitulo').textContent="Este texto también lo cambié. Estoy practicando JavaScript.";
 }

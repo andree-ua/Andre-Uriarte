@@ -24,9 +24,9 @@ function fondoAside(){
     document.getElementById('aside').style.background='#f584f5ff';
 }
 
-function m1(){ alert("Profe, si esto sale mal… no fui yo "); }
-function m2(){ alert("Ok, creo que ya estoy entendiendo esto "); }
-function m3(){ alert("Uy… le piqué y funcionó "); }
-function m4(){ alert("Profe, esto está más fácil de lo que pensé "); }
-function m5(){ alert("Estoy practicando para que me suba la nota "); }
-function m6(){ alert("Listo profe, otro botón más pa' la colección "); }
+function a1(){ alert("Profe, si esto sale mal… no fui yo "); }
+function a2(){ alert("Ok, creo que ya estoy entendiendo esto "); }
+function a3(){ alert("Uy… le piqué y funcionó "); }
+function a4(){ alert("Profe, esto está más fácil de lo que pensé "); }
+function a5(){ alert("Estoy practicando para que me suba la nota "); }
+function a6(){ alert("Listo profe, otro botón más pa' la colección "); }

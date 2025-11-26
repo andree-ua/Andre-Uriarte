@@ -5,5 +5,5 @@ function triste(){
     document.getElementById('carita').scr='Imagenes/sad.png';
 }
 function feliz(){
-    document.getElementById('carita').src='images/happy.png';
+    document.getElementById('carita').src='Imagenes/happy.png';
 }

@@ -44,7 +44,7 @@ function a6(){
 }
 
 function fondo(){
-    document.body.style.background='(olive';
+    document.body.style.background='violet';
 }
 function textoColor(){
     document.body.style.color='blue';

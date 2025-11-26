@@ -56,9 +56,9 @@ function bordeImg(){
     document.getElementById('carita').style.border='2px solid black';
 }
 
-function cambiodeTexto(){
-    document.getElementById('Subtitulo').textContent="Profe, ya cambié este subtítulo :)";
+function cambiodeText(){
+    document.getElementById('Subtitulo').textContent="Profe, ya cambié este subtítulo.";
 }
-function cambiodeTexto(){
-    document.getElementById('Subtitulo').textContent="Este texto también lo cambié. Estoy practicando JavaScript.";
+function cambiodeParrafo(){
+    document.getElementById('Parrafo').textContent="Este texto también lo cambié. Estoy practicando JavaScript.";
 }

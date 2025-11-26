@@ -4,6 +4,6 @@ function triste(){
 function triste(){
     document.getElementById('carita').scr='Imagenes/happy.png';
 }
-function cambiarColorFondo(){
-    document.getElementById
+function feliz(){
+    document.getElementById('carita').src='images/happy.png';
 }

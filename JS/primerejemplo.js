@@ -23,13 +23,10 @@ function cambiodeTexto(){
 function fondoAside(){
     document.getElementById('aside').style.background='#f584f5ff';
 }
-function modoOscuro(){
-    document.body.style.background = '#1a1a1a';
-    document.body.style.color = 'white';
-}
-function ponerBorde(){
-    document.getElementById('carita').style.border = '5px solid #000';
-}
-function moverImagen(){
-    document.getElementById('carita').style.marginLeft = '150px';
-}
+
+function m1(){ alert("Profe, si esto sale mal… no fui yo "); }
+function m2(){ alert("Ok, creo que ya estoy entendiendo esto "); }
+function m3(){ alert("Uy… le piqué y funcionó "); }
+function m4(){ alert("Profe, esto está más fácil de lo que pensé "); }
+function m5(){ alert("Estoy practicando para que me suba la nota "); }
+function m6(){ alert("Listo profe, otro botón más pa' la colección "); }

@@ -190,3 +190,47 @@ button:active {
   transform: translateY(0);
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+.calculadora {
+    width: 320px;
+    background: white;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+.calculadora h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.calculadora label {
+    display: block;
+    margin-top: 10px;
+}
+.calculadora input,
+.calculadora select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.calculadora button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #0055a5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.calculadora button:hover {
+    background-color: #003c78;
+}
+#resultado {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}

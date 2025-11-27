@@ -25,10 +25,10 @@ function fondoAside(){
 }
 
 function a1(){ 
-    alert("Profe, si esto sale mal, no fui yo 😭"); 
+    alert("Profe, si esto sale mal, no fui yo"); 
 }
 function a2(){ 
-    alert("Ok, creo que ya estoy entendiendo esto 😎"); 
+    alert("Ok, creo que ya estoy entendiendo esto"); 
 }
 function a3(){ 
     alert("Uy, le piqué y funcionó"); 
@@ -44,10 +44,10 @@ function a6(){
 }
 
 function fondo(){
-    document.body.style.background='black';
+    document.body.style.background='#FFC0AA';
 }
 function textoColor(){
-    document.body.style.color='blue';
+    document.body.style.color='#4169E1';
 }
 function tamanoImg(){
     document.getElementById('carita').style.width='250px';

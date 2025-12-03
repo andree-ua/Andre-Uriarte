@@ -191,13 +191,16 @@ button:active {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+
 .calculadora {
-    width: 320px;
+    flex: 2;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 25px;
     background: white;
-    padding: 20px;
-    margin: 40px auto;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #022442;
 }
 .calculadora h2 {
     text-align: center;
@@ -217,20 +220,19 @@ button:active {
 }
 .calculadora button {
     width: 100%;
-    margin-top: 15px;
     padding: 10px;
-    background-color: #0055a5;
+    margin-top: 15px;
+    background: #0055a5;
     color: white;
     border: none;
     border-radius: 6px;
     cursor: pointer;
 }
-
 .calculadora button:hover {
-    background-color: #003c78;
+    background: #003c78;
 }
 #resultado {
     margin-top: 15px;
-    font-weight: bold;
     text-align: center;
+    font-weight: bold;
 }
